@@ -1,0 +1,28 @@
+{
+  "name": "conventional-commits-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mastermindzh.tech:mastermindzh/conventional-commits-showcase.git"
+  },
+  "author": "Rick van Lieshout <info@rickvanlieshout.com> (http://rickvanlieshout.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cz-commitlint": "^17.2.0",
+    "commitizen": "^4.2.5",
+    "commitlint": "^17.2.0",
+    "standard-version": "^9.5.0",
+    "husky": "^8.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
+}
